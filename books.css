@@ -9,9 +9,10 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  margin-bottom: 15px;
-  font-size: medium;
+.nav {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 2%;
 }
 
 .section1,
@@ -48,10 +49,6 @@ form input {
 
 form button {
   width: 70px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  left: 76%;
 }
 
 .separator {
@@ -61,6 +58,23 @@ form button {
   margin: 15px 0;
 }
 
-.short {
-  width: 150px;
+.add-btn {
+  padding: 5px;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: rgb(141, 141, 141);
+  color: white;
+}
+
+.remove {
+  padding: 5px;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
 }
