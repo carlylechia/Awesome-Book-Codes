@@ -5,10 +5,12 @@ const addButton = document.querySelector('.add-btn');
 
 class Library {
   constructor() {
-    this.books = [{
-      title: '',
-      author: '',
-    }];
+    this.books = [
+      {
+        title: '',
+        author: '',
+      },
+    ];
   }
 
   addBook(title, author) {
