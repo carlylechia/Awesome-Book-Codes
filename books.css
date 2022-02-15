@@ -9,6 +9,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
 .section1,
 .section2,
 .section3 {
@@ -20,12 +25,36 @@ h1 {
 }
 
 .section1 {
-  margin-top: 10vh;
+  margin-top: 25px;
   height: auto;
 }
 
+.books-wrapper {
+  list-style: none;
+  width: 70vw;
+}
+
+.display {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.remove {
+  text-align: center;
+  padding: 2px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.books-wrapper li:nth-child(odd) {
+  background-color: #999;
+  color: #000;
+}
+
 .section2 {
-  margin-top: 10%;
+  margin-top: 25px;
   max-width: 300px;
   height: 200px;
 }
@@ -33,6 +62,14 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
+}
+
+.books-wrapper,
+.add-btn,
+input,
+.remove {
+  border: 3px solid black;
+  text-transform: capitalize;
 }
 
 form input {
@@ -50,4 +87,16 @@ form button {
   border: 1px solid #999;
   display: block;
   margin: 15px 0;
+}
+
+.short {
+  width: 100px;
+}
+
+.add-btn {
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  left: 76%;
 }
