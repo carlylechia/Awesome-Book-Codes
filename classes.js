@@ -54,6 +54,7 @@ class Library {
       removeButton.classList.add('remove');
 
       li.append(description, removeButton);
+      li.classList.add('display');
       removeButton.addEventListener('click', () => {
         this.removeBook(index);
       });
