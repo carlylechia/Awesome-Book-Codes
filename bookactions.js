@@ -1,7 +1,7 @@
-const formContainer = document.getElementById('formContainer');
+const formContainer = document.getElementById('form-banner');
 const bookTitle = document.getElementById('title');
 const bookAuthor = document.getElementById('author');
-const generateBooks = document.getElementById('books-wrapper');
+const generateBooks = document.getElementById('book-banner');
 
 const books = JSON.parse(localStorage.getItem('booksDetails')) || [];
 

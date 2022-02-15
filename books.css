@@ -9,6 +9,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin-bottom: 15px;
+  font-size: medium;
+}
+
 .section1,
 .section2,
 .section3 {
@@ -43,6 +48,10 @@ form input {
 
 form button {
   width: 70px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 76%;
 }
 
 .separator {
@@ -50,4 +59,8 @@ form button {
   border: 1px solid #999;
   display: block;
   margin: 15px 0;
+}
+
+.short {
+  width: 150px;
 }
