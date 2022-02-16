@@ -8,7 +8,6 @@
 ![add-books-section](Screenshots/section2.png)
 ![contact-section](Screenshots/section3.png)
 
-
 ## Built With
 
 - Javascript
@@ -19,11 +18,12 @@
 
 [Live Demo Link](https://carlylechia.github.io/Awesome-Book-Codes/)
 
-
 ## Getting Started
+
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
 You will need:
 
 A laptop or tablet, preferably a laptop;
@@ -33,16 +33,16 @@ Terminal or commandline;
 Internet connection.
 
 ### Setup, Install, and Usage
+
 Proceed to follow these steps:
 
 Follow these steps:
-  - Create a folder in the local storage of your computer which will contain the repository;
-  - open your browser and go to [the project's repository on github](https://github.com/carlylechia/Awesome-Book-Codes);
-  - Click on the `code button` and copy the https link that is provided on the dropdown;
-  - open terminal or commandline from the folder you created in the first step, and type in the command, "git clone " and then paste the url you copied on the previous step, (https://github.com/carlylechia/Awesome-Book-Codes.git).
-  - finally, you have the repository on your local computer storage. You can now open your text editor and import the repository to start making changes.
 
-
+- Create a folder in the local storage of your computer which will contain the repository;
+- open your browser and go to [the project's repository on github](https://github.com/carlylechia/Awesome-Book-Codes);
+- Click on the `code button` and copy the https link that is provided on the dropdown;
+- open terminal or commandline from the folder you created in the first step, and type in the command, "git clone " and then paste the url you copied on the previous step, (https://github.com/carlylechia/Awesome-Book-Codes.git).
+- finally, you have the repository on your local computer storage. You can now open your text editor and import the repository to start making changes.
 
 ## Authors
 
