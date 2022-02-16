@@ -110,3 +110,8 @@ const showContactInfo = () => {
 navContact.addEventListener('click', showContactInfo);
 navAdd.addEventListener('click', showAddForm);
 navList.addEventListener('click', showBooks);
+
+const displayTime = () => {
+  document.getElementById('date-area').innerHTML = new Date().toUTCString();
+  setTimeout(displayTime, 1000);
+};
