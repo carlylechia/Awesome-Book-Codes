@@ -154,6 +154,7 @@ form button {
   background-color: black;
   color: #fff;
   border: 0.7px solid #fff;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   padding: 4px;
@@ -170,4 +171,8 @@ form button {
   display: flex;
   justify-content: flex-end;
   margin: 30px 5% 0 0;
+}
+
+.nav ul .nope {
+  border-right: none;
 }

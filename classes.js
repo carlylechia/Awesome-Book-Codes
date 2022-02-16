@@ -110,3 +110,8 @@ const showContactInfo = () => {
 navContact.addEventListener('click', showContactInfo);
 navAdd.addEventListener('click', showAddForm);
 navList.addEventListener('click', showBooks);
+
+// const dateSpot = document.querySelector('.date-area');
+
+// const abcDate = new Date();
+// dateSpot.textContent = abcDate;
