@@ -5,13 +5,52 @@
 }
 
 h1 {
-  margin: 0 auto;
-  text-align: center;
+  border-top: 1.6px solid black;
+  padding-top: 20px;
 }
 
-h2 {
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #000;
+  align-items: center;
+  padding: 12px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.nav h1 {
+  border: none;
+  font-size: 28px;
+  padding: 1%;
+}
+
+.nav ul {
+  display: flex;
+  width: 40%;
+}
+
+.nav ul li {
+  list-style-type: none;
+  border-right: 3px solid #000;
+  width: 30%;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  margin-bottom: 10px;
+}
+
+.nav ul .nobd {
+  border-right: none;
 }
 
 .section1,
@@ -99,4 +138,32 @@ form button {
   cursor: pointer;
   position: relative;
   left: 76%;
+}
+
+.footer {
+  border: 3px solid #000;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  bottom: 2%;
+  left: 4%;
+  width: 90%;
+}
+
+.hide {
+  display: none;
+}
+
+.active-btn {
+  background-color: black;
+  color: white;
+  border: 0.7px solid white;
+  border-radius: 7%;
+  padding: 4px;
+}
+
+.time-div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 5% 0 0;
 }
