@@ -48,6 +48,7 @@ li {
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
+  color: #000;
 }
 
 .section1,
@@ -60,9 +61,14 @@ li {
   padding: 20px;
 }
 
-.section1 {
-  margin-top: 25px;
-  height: auto;
+h2 {
+  margin: 15px;
+}
+
+.section1,
+.section3 {
+  height: 63vh;
+  overflow-y: hidden;
 }
 
 .books-wrapper {
@@ -90,9 +96,7 @@ li {
 }
 
 .section2 {
-  margin-top: 25px;
-  max-width: 300px;
-  height: 200px;
+  margin-top: 7%;
 }
 
 form {
@@ -109,13 +113,13 @@ input,
 }
 
 form input {
-  width: 300px;
-  padding: 5px;
-  margin-bottom: 10px;
+  width: 50vw;
+  padding: 15px;
+  margin-bottom: 30px;
 }
 
 form button {
-  width: 70px;
+  width: 90px;
 }
 
 .separator {
@@ -134,7 +138,7 @@ form button {
   font-weight: bold;
   cursor: pointer;
   position: relative;
-  left: 76%;
+  left: 43.5vw;
 }
 
 .footer {
