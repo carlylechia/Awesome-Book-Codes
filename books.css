@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
 h1 {
@@ -167,7 +168,7 @@ form button {
   padding: 8px;
 }
 
-.date-area {
+#date-area {
   display: flex;
   justify-content: flex-end;
   margin: 30px 5% 0 0;

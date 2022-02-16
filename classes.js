@@ -111,7 +111,9 @@ navContact.addEventListener('click', showContactInfo);
 navAdd.addEventListener('click', showAddForm);
 navList.addEventListener('click', showBooks);
 
-// const dateSpot = document.querySelector('.date-area');
+const displayTime = () => {
+  document.getElementById('date-area').innerHTML = new Date();
+  setTimeout(displayTime, 1000);
+};
 
-// const abcDate = new Date();
-// dateSpot.textContent = abcDate;
+displayTime();
