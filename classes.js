@@ -73,6 +73,14 @@ document.addEventListener('DOMContentLoaded', () => {
   myLibrary.getLocalStorage();
 });
 
+// eslint-disable-next-line no-unused-vars
+const conText = () => {
+  // eslint-disable-next-line no-alert
+  alert('Your book has been added, check the booklist to confirm.');
+};
+
+addButton.addEventListener('click', conText);
+
 // Final-milestone js-code
 
 const section1 = document.querySelector('.section1');
