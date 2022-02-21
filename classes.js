@@ -90,6 +90,8 @@ const navList = document.getElementById('book-list');
 const navAdd = document.getElementById('add-book');
 const navContact = document.getElementById('contact');
 
+navAdd.classList.add('current');
+
 const showBooks = () => {
   section1.classList.remove('hide');
   section2.classList.add('hide');
